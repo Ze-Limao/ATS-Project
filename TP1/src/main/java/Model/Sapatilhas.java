@@ -17,8 +17,8 @@ public class Sapatilhas extends Artigo {
     private LocalDate data_lancamento;
     private Tipos_Sapatilhas tipos_sapatilhas;
 
-    public  Sapatilhas(){
-        super();
+    public Sapatilhas(){
+        super("", null, 0, null, "", "", "", 0, 0, "");
         this.tamanho_numerico = 0;
         this.atilhos = false;
         this.cor = "";
@@ -26,7 +26,7 @@ public class Sapatilhas extends Artigo {
         this.tipos_sapatilhas = null;
     }
 
-    public Sapatilhas(int tamanho_numerico, boolean atilhos, String cor, LocalDate data_lancamento, Tipos_Sapatilhas tipos_sapatilhas, String tipo, Estado estado, int numeroDonos, Avaliação avaliacao, String descricao, String marca, String codigo, double precoBase, double correcaoPreco, String t){
+    public Sapatilhas(int tamanho_numerico, boolean atilhos, String cor, LocalDate data_lancamento, Tipos_Sapatilhas tipos_sapatilhas, String tipo, Estado estado, int numeroDonos, Avaliacao avaliacao, String descricao, String marca, String codigo, double precoBase, double correcaoPreco, String t){
         // mudar depois ao criar a tshirt
         super(tipo, estado, numeroDonos, avaliacao, descricao, marca, codigo, precoBase, correcaoPreco, t);
         this.tamanho_numerico = tamanho_numerico;

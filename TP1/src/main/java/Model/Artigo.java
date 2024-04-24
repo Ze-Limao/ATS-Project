@@ -9,17 +9,17 @@ public abstract class Artigo implements Serializable{
         NOVO,
         USADO
     }
-    public enum Avaliação{
-        IMPECÁVEL,
+    public enum Avaliacao {
+        IMPECAVEL,
         BOM,
-        SATISFATÓRIO,
+        SATISFATORIO,
     }
     private static int nextID = 1;
     private int id;                     // Id do Produto
     private String tipo;                // Tipo do Produto
     private Estado estado;              // Estado do Produto
     private int numeroDonos;            // Número de Donos
-    private Avaliação avaliacao;
+    private Avaliacao avaliacao;
     private String descricao;           // Descrição do Produto
     private String marca;               // Marca do Produto
     private String codigo;              // Código Alfa-Númerico
@@ -41,7 +41,7 @@ public abstract class Artigo implements Serializable{
         this.transportadora = null;
     }
 
-    public Artigo(String tipo, Estado estado, int numeroDonos, Avaliação avaliacao, String descricao, String marca, String codigo, double precoBase, double correcaoPreco,String transportadora) {
+    public Artigo(String tipo, Estado estado, int numeroDonos, Avaliacao avaliacao, String descricao, String marca, String codigo, double precoBase, double correcaoPreco, String transportadora) {
         this.id = nextID++;
         this.tipo = tipo;
         this.estado = estado;
@@ -98,11 +98,11 @@ public abstract class Artigo implements Serializable{
         this.estado = estado;
     }
 
-    public Avaliação getAvaliacao(){
+    public Avaliacao getAvaliacao(){
         return avaliacao;
     }
 
-    public void setAvaliacao(Avaliação avaliacao){
+    public void setAvaliacao(Avaliacao avaliacao){
         this.avaliacao = avaliacao;
     }
 
@@ -190,7 +190,7 @@ public abstract class Artigo implements Serializable{
         sb.append("Tipo: ").append(this.tipo).append("\n");
         sb.append("Estado: ").append(this.estado).append("\n");
         sb.append("Número de Donos: ").append(this.numeroDonos).append("\n");
-        sb.append("Avaliação: ").append(this.avaliacao).append("\n");
+        sb.append("Avaliacao: ").append(this.avaliacao).append("\n");
         sb.append("Descrição: ").append(this.descricao).append("\n");
         sb.append("Marca: ").append(this.marca).append("\n");
         sb.append("Código: ").append(this.codigo).append("\n");

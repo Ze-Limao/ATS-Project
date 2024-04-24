@@ -18,7 +18,7 @@ public class ControladorArtigo implements Serializable{
 
     public TShirt registarTShirt(Apresentacao a, Vintage v){
         int numDonos;
-        Artigo.Avaliação avaliacao;
+        Artigo.Avaliacao avaliacao;
         Transportadoras transportadora = null; // MUDAR MAIS TARDE CASO SEJA NECESSARIO
         String transp = "";
 
@@ -31,8 +31,8 @@ public class ControladorArtigo implements Serializable{
         Artigo.Estado estado = Artigo.Estado.valueOf(estadoString);
         if ((estadoString.equals("USADO"))){
             numDonos = in.lerInt(a, ">> Nº Donos: ", 1, 1000);
-            String avaliacaoString = in.lerString(a, ">> Avaliação T-Shirt (IMPECÁVEL,BOM,SATISFATÓRIO): ");
-            avaliacao = Artigo.Avaliação.valueOf(avaliacaoString);
+            String avaliacaoString = in.lerString(a, ">> Avaliacao T-Shirt (IMPECÁVEL,BOM,SATISFATÓRIO): ");
+            avaliacao = Artigo.Avaliacao.valueOf(avaliacaoString);
         }else {
             numDonos = 0;
             avaliacao = null;
@@ -55,7 +55,7 @@ public class ControladorArtigo implements Serializable{
 
     public Malas registarMala(Apresentacao a, Vintage v){
         int numDonos;
-        Artigo.Avaliação avaliacao;
+        Artigo.Avaliacao avaliacao;
         Transportadoras transportadora = null;
         String transp = "";
         a.printMessage("===== Registo Mala =====");
@@ -68,8 +68,8 @@ public class ControladorArtigo implements Serializable{
         Artigo.Estado estado = Artigo.Estado.valueOf(estadoString);
         if (estadoString.equals("USADO")){
             numDonos = in.lerInt(a, ">> Nº Donos: ", 1, 1000);
-            String avaliacaoString = in.lerString(a, ">> Avaliação Mala (IMPECÁVEL,BOM,SATISFATÓRIO): ");
-            avaliacao = Artigo.Avaliação.valueOf(avaliacaoString);
+            String avaliacaoString = in.lerString(a, ">> Avaliacao Mala (IMPECÁVEL,BOM,SATISFATÓRIO): ");
+            avaliacao = Artigo.Avaliacao.valueOf(avaliacaoString);
         } else {
             numDonos = 0;
             avaliacao = null;
@@ -97,7 +97,7 @@ public class ControladorArtigo implements Serializable{
 
     public Sapatilhas registarSapatilha(Apresentacao a, Vintage v){
         int numDonos;
-        Artigo.Avaliação avaliacao;
+        Artigo.Avaliacao avaliacao;
         Transportadoras transportadora = null;
         String transp = "";
 
@@ -112,8 +112,8 @@ public class ControladorArtigo implements Serializable{
         Artigo.Estado estado = Artigo.Estado.valueOf(estadoString);
         if (estadoString.equals("USADO")){
             numDonos = in.lerInt(a, ">> Nº Donos: ", 1, 1000);
-            String avaliacaoString = in.lerString(a, ">> Avaliação Sapatilha (IMPECÁVEL,BOM,SATISFATÓRIO): ");
-            avaliacao = TShirt.Avaliação.valueOf(avaliacaoString);
+            String avaliacaoString = in.lerString(a, ">> Avaliacao Sapatilha (IMPECÁVEL,BOM,SATISFATÓRIO): ");
+            avaliacao = Artigo.Avaliacao.valueOf(avaliacaoString);
         } else {
             numDonos = 0;
             avaliacao = null;
