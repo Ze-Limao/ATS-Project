@@ -99,7 +99,7 @@ public class Sapatilhas extends Artigo {
                 this.atilhos == s.getAtilhos() &&
                 this.cor.equals(s.getCor()) &&
                 this.data_lancamento.equals(s.getDataLancamento()) &&
-                this.tipos_sapatilhas.equals(s.getTiposSapatilhas()));
+                this.tipos_sapatilhas == (s.getTiposSapatilhas()));
     }
 
     public String toString(LocalDate data) {
