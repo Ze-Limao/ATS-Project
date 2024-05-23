@@ -54,4 +54,13 @@ class MalasTest {
                 m2.precoFinal(daquiA5Anos));
 
     }
+
+    @Test
+    void precoFinalNegativo() { // falha porque há um 'bug': o preço final de uma mala pode ser negativo (não faz sentido)
+        m2.setDim(12);
+        m2.setCorrecaoPreco(1); // a aplicação deixa o utilizador escolher uma correcao de preço entre 0 e 10000 ao registar um artigo
+        m2.setAno_da_colecao(2090); // nao há controlo de erro para o ano da coleção, logo é possível ser um ano futuro
+        double preco1 = m2.precoFinal(LocalDate.of(2024, 1, 1));
+        assertTrue(preco1 > 0);
+    }
 }
