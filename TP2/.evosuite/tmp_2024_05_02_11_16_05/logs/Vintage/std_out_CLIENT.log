@@ -1,0 +1,85 @@
+* Starting client
+* Connecting to master process on port 13902
+* Analyzing classpath: 
+  - C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\test-classes
+  - C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\classes
+  - C:\Users\jeswi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar
+  - C:\Users\jeswi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar
+  - C:\Users\jeswi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar
+  - C:\Users\jeswi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\jeswi\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar
+  - C:\Users\jeswi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class Vintage
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 11:31:47.677 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\.evosuite\evosuite-seeds\Vintage.seed
+* Loaded 0 tests from C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\.evosuite\evosuite-seeds\Vintage.seed
+* Total number of test goals: 
+  - Line 389
+  - Branch 135
+  - Exception 0
+  - MutationFactory 968
+  - Output 182
+  - Method 88
+  - MethodNoException 88
+  - CBranchFitnessFactory 135
+* Using seed 1714645901822
+* Starting evolution
+* Search finished after 77s and 61 generations, 30009 statements, best individual has fitness: 356.46030859467606
+* Writing sequences to pool
+[MASTER] 11:37:07.317 [pool-2-thread-1] WARN  TimeController - Phase SEARCH lasted too long, 244 seconds more than allowed.
+[MASTER] 11:37:07.607 [pool-2-thread-1] WARN  TimeController - Current phase MINIMIZATION could run up to 11s, but only -184s are left
+* Skipping minimization because not enough time is left
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 64%
+* Total number of goals: 389
+* Number of covered goals: 248
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 82%
+* Total number of goals: 135
+* Number of covered goals: 111
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 42
+* Number of covered goals: 42
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 88%
+* Total number of goals: 968
+* Number of covered goals: 850
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 31%
+* Total number of goals: 182
+* Number of covered goals: 56
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 88
+* Number of covered goals: 88
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 99%
+* Total number of goals: 88
+* Number of covered goals: 87
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 82%
+* Total number of goals: 135
+* Number of covered goals: 111
+* Generated 140 tests with total length 2191
+* Resulting test suite's coverage: 78% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 11:37:08.444 [pool-2-thread-1] WARN  TimeController - Current phase ASSERTION_GENERATION could run up to 11s, but only -185s are left
+* Skipping assertion generation because not enough time is left
+* Compiling and checking tests
+[MASTER] 11:37:08.766 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 11s, but only -185s are left
+[MASTER] 11:37:08.768 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 11s, but only -185s are left
+* Writing JUnit test case 'Vintage_ESTest' to C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\.evosuite\tmp_2024_05_02_11_16_05\tests
+* Done!
+

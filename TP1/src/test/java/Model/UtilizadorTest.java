@@ -1,4 +1,5 @@
-import Model.*;
+package Model;
+
 import java.util.*;
 import org.junit.jupiter.api.*;
 
@@ -9,7 +10,7 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class UserTest {
+public class UtilizadorTest {
     private Utilizador user;
 
     @BeforeEach
@@ -72,5 +73,10 @@ public class UserTest {
         assertEquals(faturacao, user.getFaturacao());
     }
 
+    @Test
+    void testEquals() {
+        Utilizador u = user.clone();
+
+    }
 
 }
