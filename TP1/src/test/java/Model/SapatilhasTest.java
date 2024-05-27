@@ -24,7 +24,7 @@ class SapatilhasTest {
 
     @Test
     void testEquals() {
-        assertTrue(s_default.equals(s_default));
+        assertEquals(s_default, s_default);
         assertNotEquals(s_default, s1);
         assertNotEquals(s_default, s2);
         assertNotEquals(s1, s2);
@@ -38,7 +38,7 @@ class SapatilhasTest {
     }
 
     @Test
-    void precoFinalNegativo() { // falha porque há um 'bug': o preço final de umas sapatilhas usadas pode ser negativo (não faz sentido)
+    void testPrecoFinalNegativo() { // falha porque há um 'bug': o preço final de umas sapatilhas usadas pode ser negativo (não faz sentido)
         s1.setEstado(Artigo.Estado.USADO);
         s1.setNumeroDonos(999); // é possível ter um artigo com 999 donos anteriores, embora não seja comum
         s1.setCorrecaoPreco(1); // a aplicação deixa o utilizador escolher uma correcao de preço entre 0 e 10000 ao registar um artigo

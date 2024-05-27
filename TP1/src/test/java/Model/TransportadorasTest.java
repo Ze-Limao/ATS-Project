@@ -30,13 +30,27 @@ class TransportadorasTest {
         assertNotSame(t, t_clone);
     }
 
-
-
     @Test
-    void calculaPrecoExpedicaoLucro0() { // tecnicamente o enunciado não o proíbe mas não faz sentido o preço de expedição ser 0, entao consideramos como bug
+    void testCalculaPrecoExpedicaoLucro0() { // tecnicamente o enunciado não o proíbe mas não faz sentido o preço de expedição ser 0, entao consideramos como bug
         // lucro pode ser de 0 a 100000
         t.setLucro(0); // a app deixa que o lucro seja 0. Lucro = 0 significa que a transportadora não ganha nada, mas também não devia perder dinheiro
         double preco = t.calculaPrecoExpedicao(1L);
         assertNotEquals(0.0, preco); // não faz sentido o preço ser 0. Se o preço for 0, a transportadora está a perder dinheiro
+    }
+
+    @Test
+    void testCalculaPrecoExpedicaoLucro() {
+        t.setLucro(100000); // limite máximo lido pela app
+        double preco = t.calculaPrecoExpedicao(1L);
+        assertEquals(10 * 100000.0 * (1+t.getImposto()) * 0.9  , preco);
+    }
+
+    @Test
+    void testCalculaPrecoExpedicaoLucroFormula4() { // a formula 4 não faz sentido, mas não também não é usada pela app
+        t.setLucro(100000); // limite máximo lido pela app
+        t.setFormula(4);
+        double preco = t.calculaPrecoExpedicao(1L);
+        System.out.println(preco);
+        assertTrue(preco > 0 ); // não faz sentido o preço ser negativo, a transportadora estaria a perder dinheiro
     }
 }
