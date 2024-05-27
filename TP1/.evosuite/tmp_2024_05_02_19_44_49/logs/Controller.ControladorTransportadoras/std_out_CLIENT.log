@@ -1,0 +1,79 @@
+* Starting client
+* Connecting to master process on port 2213
+* Analyzing classpath: 
+  - C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP1\target\classes
+  - C:\Users\jeswi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar
+  - C:\Users\jeswi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar
+  - C:\Users\jeswi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar
+  - C:\Users\jeswi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\jeswi\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar
+  - C:\Users\jeswi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class Controller.ControladorTransportadoras
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 19:55:30.109 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP1\.evosuite\evosuite-seeds\Controller.ControladorTransportadoras.seed
+* Loaded 0 tests from C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP1\.evosuite\evosuite-seeds\Controller.ControladorTransportadoras.seed
+* Total number of test goals: 
+  - Line 24
+  - Branch 7
+  - Exception 0
+  - MutationFactory 55
+  - Output 15
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 7
+* Using seed 1714676126151
+* Starting evolution
+* Search finished after 39s and 410 generations, 111878 statements, best individual has fitness: 50.55952380952381
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 54%
+* Total number of goals: 24
+* Number of covered goals: 13
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 40%
+* Total number of goals: 55
+* Number of covered goals: 22
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 0%
+* Total number of goals: 15
+* Number of covered goals: 0
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 50%
+* Total number of goals: 4
+* Number of covered goals: 2
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Generated 7 tests with total length 28
+* Resulting test suite's coverage: 68% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Compiling and checking tests
+* Writing JUnit test case 'ControladorTransportadoras_ESTest' to C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP1\.evosuite\tmp_2024_05_02_19_44_49\tests
+* Done!
+

@@ -1,0 +1,79 @@
+* Starting client
+* Connecting to master process on port 10800
+* Analyzing classpath: 
+  - C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP1\target\classes
+  - C:\Users\jeswi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar
+  - C:\Users\jeswi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar
+  - C:\Users\jeswi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar
+  - C:\Users\jeswi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\jeswi\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar
+  - C:\Users\jeswi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class Model.TShirt
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 19:55:03.963 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP1\.evosuite\evosuite-seeds\Model.TShirt.seed
+* Loaded 0 tests from C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP1\.evosuite\evosuite-seeds\Model.TShirt.seed
+* Total number of test goals: 
+  - Line 36
+  - Branch 25
+  - Exception 0
+  - MutationFactory 32
+  - Output 25
+  - Method 11
+  - MethodNoException 11
+  - CBranchFitnessFactory 25
+* Using seed 1714676100473
+* Starting evolution
+* Search finished after 54s and 409 generations, 168887 statements, best individual has fitness: 3.5
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 36
+* Number of covered goals: 36
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 25
+* Number of covered goals: 25
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 32
+* Number of covered goals: 32
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 88%
+* Total number of goals: 25
+* Number of covered goals: 22
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 11
+* Number of covered goals: 11
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 11
+* Number of covered goals: 11
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 25
+* Number of covered goals: 25
+* Generated 21 tests with total length 109
+* Resulting test suite's coverage: 98% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 91%
+* Compiling and checking tests
+* Writing JUnit test case 'TShirt_ESTest' to C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP1\.evosuite\tmp_2024_05_02_19_44_49\tests
+* Done!
+
