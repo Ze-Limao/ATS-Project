@@ -73,7 +73,7 @@ public class UtilizadorTest {
     }
 
     @Test
-    void testEqualsBasicProperty() { //bug: usam o equals de Object antes de comparar o resto, o que faz com que dois utilizadores com as mesmas informaçoes sejam considerados diferentes porque estao em sitios diferentes da memoria
+    void testEqualsBasicProperty() { //bug: usa o equals de Object antes de comparar o resto, o que faz com que dois utilizadores com as mesmas informaçoes sejam considerados diferentes porque estao em sitios diferentes da memoria
         assertEquals(user, user.clone());
     }
 

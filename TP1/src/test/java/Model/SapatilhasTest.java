@@ -40,7 +40,7 @@ class SapatilhasTest {
     @Test
     void testPrecoFinalNegativo() { // falha porque há um 'bug': o preço final de umas sapatilhas usadas pode ser negativo (não faz sentido)
         s1.setEstado(Artigo.Estado.USADO);
-        s1.setNumeroDonos(999); // é possível ter um artigo com 999 donos anteriores, embora não seja comum
+        s1.setNumeroDonos(999); // é possível ter um artigo com 999 donos anteriores, embora não seja comum, a aplicação permite entre 1 e 1000
         s1.setCorrecaoPreco(1); // a aplicação deixa o utilizador escolher uma correcao de preço entre 0 e 10000 ao registar um artigo
         double preco1 = s1.precoFinal(LocalDate.of(2021, 1, 1));
         assertTrue(preco1 > 0); // não faz sentido que o preço final seja negativo ou zero
