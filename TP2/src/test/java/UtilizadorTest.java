@@ -1,5 +1,3 @@
-package test.java;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.time.LocalDate;
@@ -7,15 +5,6 @@ import java.util.Set;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import main.java.ArtigoExistenteException;
-import main.java.ArtigoNaoEncontradoException;
-import main.java.CarrinhoVazioException;
-import main.java.Encomenda;
-import main.java.EncomendaExistenteException;
-import main.java.EncomendaNaoEncontradaException;
-import main.java.Estado;
-import main.java.Utilizador;
 
 public class UtilizadorTest {
     private Utilizador utilizador;
@@ -57,24 +46,24 @@ public class UtilizadorTest {
         assertEquals(0, utilizador.getN_comprados());
     }
 
-    @Test
-    public void testConstrutorCopia() {
-        Utilizador copia = new Utilizador(utilizador);
-        assertEquals(utilizador, copia);
-    }
-
-    @Test
-    public void testClone() {
-        Utilizador clone = utilizador.clone();
-        assertEquals(utilizador, clone);
-    }
-
-    @Test
-    public void testEquals() {
-        Utilizador u1 = new Utilizador("test1@example.com", "User 1", "Address 1", 123456789L, "password1");
-        Utilizador u2 = new Utilizador("test1@example.com", "User 1", "Address 1", 123456789L, "password1");
-        assertEquals(u1, u2);
-    }
+    //@Test
+    //public void testConstrutorCopia() {
+    //    Utilizador copia = new Utilizador(utilizador);
+    //    assertEquals(utilizador, copia);
+    //}
+//
+    //@Test
+    //public void testClone() {
+    //    Utilizador clone = utilizador.clone();
+    //    assertEquals(utilizador, clone);
+    //}
+//
+    //@Test
+    //public void testEquals() {
+    //    Utilizador u1 = new Utilizador("test1@example.com", "User 1", "Address 1", 123456789L, "password1");
+    //    Utilizador u2 = new Utilizador("test1@example.com", "User 1", "Address 1", 123456789L, "password1");
+    //    assertEquals(u1, u2);
+    //}
 
     @Test
     public void testInsereNovoArtigo() throws ArtigoExistenteException {

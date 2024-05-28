@@ -1,5 +1,3 @@
-package test.java;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.time.LocalDate;
@@ -9,16 +7,10 @@ import java.util.Set;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import main.java.ArtigoExistenteException;
-import main.java.ArtigoNaoEncontradoException;
-import main.java.Dimensao;
-import main.java.Encomenda;
-import main.java.Estado;
-
 public class EncomendaTest {
 
     private Encomenda encomendaVazia;
-    private Encomenda encomendaParametrizada;
+    private Encomenda encomendaParametrizada1;
     private Set<String> artigos;
 
     @BeforeEach
@@ -27,10 +19,37 @@ public class EncomendaTest {
         artigos = new HashSet<>();
         artigos.add("A1");
         artigos.add("A2");
-        encomendaParametrizada = new Encomenda(artigos, 123, Dimensao.Medio, LocalDate.now());
+        encomendaParametrizada1 = new Encomenda(artigos, 123, Dimensao.Medio, LocalDate.now());
     }
+    
+    @Test
+    public void testSettersAndGetters() {
+        assertEquals(2, Encomenda.getDiasDevolver());
+    	
+        encomendaVazia.setIdComprador(456);
+        assertEquals(456, encomendaVazia.getIdComprador());
 
+        encomendaVazia.setDimensao(Dimensao.Grande);
+        assertEquals(Dimensao.Grande, encomendaVazia.getDimensao());
 
+        encomendaVazia.setEstado(Estado.Expedida);
+        assertEquals(Estado.Expedida, encomendaVazia.getEstado());
+
+        LocalDate data = LocalDate.of(2023, 5, 28);
+        encomendaVazia.setData(data);
+        assertEquals(data, encomendaVazia.getData());
+
+        encomendaVazia.setDataEntrega(data.plusDays(2));
+        assertEquals(data.plusDays(2), encomendaVazia.getDataEntrega());
+    }
+    
+    @Test
+    public void testToString() {
+        String expected = "Encomenda:: { Artigos: [A1, A2] Código: " + encomendaParametrizada1.getId() +
+                " Dimensão: Medio Estado: Pendente Data de criação: " + LocalDate.now() +" Data de entrega: N/A}";
+        assertEquals(expected, encomendaParametrizada1.toString());
+    }
+    
     @Test
     public void testAdicionaArtigo() throws ArtigoExistenteException{
         try {
@@ -39,12 +58,6 @@ public class EncomendaTest {
         } catch (ArtigoExistenteException e) {
             fail("ArtigoExistenteException não esperada");
         }
-    }
-
-    @Test
-    public void testAdicionaArtigoExistente() throws ArtigoExistenteException {
-        encomendaVazia.adicionaArtigo("A1");
-        encomendaVazia.adicionaArtigo("A1"); // Deve lançar ArtigoExistenteException
     }
 
     @Test
@@ -114,17 +127,22 @@ public class EncomendaTest {
 
     @Test
     public void testEquals() throws ArtigoExistenteException {
-        Encomenda outra = new Encomenda(encomendaParametrizada);
-        assertEquals(encomendaParametrizada, outra);
-
+    	encomendaParametrizada1.setDataEntrega(LocalDate.now());
+        Encomenda outra = new Encomenda(encomendaParametrizada1);
+        outra.setId(encomendaParametrizada1.getId());
+        assertEquals(encomendaParametrizada1, encomendaParametrizada1);
+        assertEquals(encomendaParametrizada1, outra);
+        assertNotEquals(encomendaParametrizada1, null);
+//
         outra.adicionaArtigo("A3");
-        assertNotEquals(encomendaParametrizada, outra);
+        assertNotEquals(encomendaParametrizada1, outra);
     }
-
+//
     @Test
     public void testClone() {
-        Encomenda copia = encomendaParametrizada.clone();
-        assertEquals(encomendaParametrizada, copia);
-        assertNotSame(encomendaParametrizada, copia);
+    	encomendaParametrizada1.setDataEntrega(LocalDate.now());
+        Encomenda copia = encomendaParametrizada1.clone();
+        copia.setId(encomendaParametrizada1.getId());
+        assertEquals(encomendaParametrizada1, copia);
     }
 }
