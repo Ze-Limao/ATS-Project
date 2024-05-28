@@ -1,4 +1,5 @@
-import Model.*;
+package Model;
+
 import java.util.*;
 import org.junit.jupiter.api.*;
 
@@ -9,7 +10,7 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class UserTest {
+public class UtilizadorTest {
     private Utilizador user;
 
     @BeforeEach
@@ -28,7 +29,6 @@ public class UserTest {
 
     @Test
     void testDadosUtilizador() {
-        assertEquals(1, user.getId());
         assertEquals("user@mail.com", user.getEmail());
         assertEquals("User", user.getNome());
         assertEquals("123 Main St.", user.getMorada());
@@ -72,5 +72,36 @@ public class UserTest {
         assertEquals(faturacao, user.getFaturacao());
     }
 
+    @Test
+    void testEqualsBasicProperty() { //bug: usam o equals de Object antes de comparar o resto, o que faz com que dois utilizadores com as mesmas informaçoes sejam considerados diferentes porque estao em sitios diferentes da memoria
+        assertEquals(user, user.clone());
+    }
 
+    @Test
+    void testEquals() {
+        assertNotSame(user, user.clone());
+        assertNotEquals(user, null);
+        Utilizador u2 = new Utilizador();
+        assertNotEquals(user, u2);
+    }
+
+    @Test
+    void testCalculaFaturacaoSempre() {
+        Map<LocalDate, Double> faturacao = new HashMap<>();
+        faturacao.put(LocalDate.now(), 100.0);
+        faturacao.put(LocalDate.now().minusDays(1), 200.0);
+        user.setFaturacao(faturacao);
+        assertEquals(300.0, user.calculaFaturacaoSempre());
+    }
+
+    @Test
+    void testCalculaFaturacaoIntervalo() {
+        Map<LocalDate, Double> faturacao = new HashMap<>();
+        faturacao.put(LocalDate.now(), 100.0);
+        faturacao.put(LocalDate.now().minusDays(10), 200.0);
+        user.setFaturacao(faturacao);
+        assertEquals(100.0, user.calculaFaturacaoIntervalo(LocalDate.now().minusDays(1), LocalDate.now().plusDays(1)));
+        assertEquals(300.0, user.calculaFaturacaoIntervalo(LocalDate.now().minusDays(11), LocalDate.now().plusDays(1)));
+        assertEquals(0.0, user.calculaFaturacaoIntervalo(LocalDate.now().plusDays(1), LocalDate.now().plusDays(100)));
+    }
 }

@@ -1,0 +1,83 @@
+* Starting client
+* Connecting to master process on port 20676
+* Analyzing classpath: 
+  - C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\test-classes
+  - C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\classes
+  - C:\Users\jeswi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar
+  - C:\Users\jeswi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar
+  - C:\Users\jeswi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar
+  - C:\Users\jeswi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\jeswi\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar
+  - C:\Users\jeswi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class Transportadora
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 11:38:57.924 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\.evosuite\evosuite-seeds\Transportadora.seed
+* Loaded 0 tests from C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\.evosuite\evosuite-seeds\Transportadora.seed
+* Total number of test goals: 
+  - Line 131
+  - Branch 81
+  - Exception 0
+  - MutationFactory 328
+  - Output 88
+  - Method 35
+  - MethodNoException 35
+  - CBranchFitnessFactory 81
+* Using seed 1714646333297
+* Starting evolution
+* Search finished after 72s and 105 generations, 90341 statements, best individual has fitness: 12.833333332766534
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 11:40:21.009 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 131
+* Number of covered goals: 131
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 81
+* Number of covered goals: 81
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 99%
+* Total number of goals: 328
+* Number of covered goals: 324
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 90%
+* Total number of goals: 88
+* Number of covered goals: 79
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 35
+* Number of covered goals: 35
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 35
+* Number of covered goals: 35
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 81
+* Number of covered goals: 81
+* Generated 98 tests with total length 1188
+* Resulting test suite's coverage: 99% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 11:40:30.648 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.9327% of time used, but only 1/98 tests minimized), falling back to using all assertions
+[MASTER] 11:40:31.368 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 12%
+* Compiling and checking tests
+* Writing JUnit test case 'Transportadora_ESTest' to C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\.evosuite\tmp_2024_05_02_11_16_05\tests
+* Done!
+

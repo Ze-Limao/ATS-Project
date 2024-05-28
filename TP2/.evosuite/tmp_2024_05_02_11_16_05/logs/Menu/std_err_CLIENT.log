@@ -1,0 +1,138 @@
+[MASTER] 11:29:49.196 [pool-2-thread-1] ERROR JUnitAnalyzer - Compilation failed on compilation units: [RegularFileObject[C:\Users\jeswi\AppData\Local\Temp\EvoSuite_17_1714645789052\Menu_17_tmp__ESTest.java], RegularFileObject[C:\Users\jeswi\AppData\Local\Temp\EvoSuite_17_1714645789052\Menu_17_tmp__ESTest_scaffolding.java]]
+[MASTER] 11:29:49.196 [pool-2-thread-1] ERROR JUnitAnalyzer - Classpath: C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\test-classes;C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\classes;C:\Users\jeswi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\jeswi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jeswi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\jeswi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jeswi\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\jeswi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jeswi\.m2\repository\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\test-classes;C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\classes;C:\Users\jeswi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\jeswi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jeswi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\jeswi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jeswi\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\jeswi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jeswi\.m2\repository\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;C:\Users\jeswi\.m2\repository\org\evosuite\evosuite-master\1.0.6\evosuite-master-1.0.6.jar;C:\Users\jeswi\.m2\repository\org\evosuite\evosuite-client\1.0.6\evosuite-client-1.0.6-tests.jar;C:\Users\jeswi\.m2\repository\org\evosuite\evosuite-runtime\1.0.6\evosuite-runtime-1.0.6.jar;C:\Users\jeswi\.m2\repository\javax\ejb\javax.ejb-api\3.2\javax.ejb-api-3.2.jar;C:\Users\jeswi\.m2\repository\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;C:\Users\jeswi\.m2\repository\javax\faces\javax.faces-api\2.2\javax.faces-api-2.2.jar;C:\Users\jeswi\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\jeswi\.m2\repository\org\hsqldb\hsqldb\2.4.0\hsqldb-2.4.0.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-orm\4.3.14.RELEASE\spring-orm-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-jdbc\4.3.14.RELEASE\spring-jdbc-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-context\4.3.14.RELEASE\spring-context-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-aop\4.3.14.RELEASE\spring-aop-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-expression\4.3.14.RELEASE\spring-expression-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\jeswi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jeswi\.m2\repository\org\mockito\mockito-core\2.16.0\mockito-core-2.16.0.jar;C:\Users\jeswi\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\jeswi\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.9\byte-buddy-agent-1.7.9.jar;C:\Users\jeswi\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\jeswi\.m2\repository\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;C:\Users\jeswi\.m2\repository\org\ow2\asm\asm\6.0\asm-6.0.jar;C:\Users\jeswi\.m2\repository\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;C:\Users\jeswi\.m2\repository\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;C:\Users\jeswi\.m2\repository\org\ow2\asm\asm-analysis\6.0\asm-analysis-6.0.jar;C:\Users\jeswi\.m2\repository\org\ow2\asm\asm-util\6.0\asm-util-6.0.jar;C:\Users\jeswi\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\jeswi\.m2\repository\com\opencsv\opencsv\4.1\opencsv-4.1.jar;C:\Users\jeswi\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;C:\Users\jeswi\.m2\repository\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;C:\Users\jeswi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jeswi\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\jeswi\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\jeswi\.m2\repository\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;C:\Users\jeswi\.m2\repository\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;C:\Users\jeswi\.m2\repository\com\googlecode\gentyref\gentyref\1.2.0\gentyref-1.2.0.jar;C:\Users\jeswi\.m2\repository\net\sf\jgrapht\jgrapht\0.8.3\jgrapht-0.8.3.jar;C:\Users\jeswi\.m2\repository\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;C:\Users\jeswi\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\jeswi\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\jeswi\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\jeswi\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\jeswi\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\jeswi\.m2\repository\org\kohsuke\graphviz-api\1.1\graphviz-api-1.1.jar;C:\Users\jeswi\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\jeswi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\jeswi\.m2\repository\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.2.Final\jboss-servlet-api_3.1_spec-1.0.2.Final.jar;C:\Users\jeswi\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\jeswi\.m2\repository\javax\enterprise\cdi-api\1.2\cdi-api-1.2.jar;C:\Users\jeswi\.m2\repository\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;C:\Users\jeswi\.m2\repository\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;C:\Users\jeswi\.m2\repository\org\hibernate\hibernate-core\5.2.13.Final\hibernate-core-5.2.13.Final.jar;C:\Users\jeswi\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\jeswi\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\jeswi\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\Users\jeswi\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\jeswi\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;C:\Users\jeswi\.m2\repository\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;C:\Users\jeswi\.m2\repository\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;C:\Users\jeswi\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\jeswi\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;C:\Users\jeswi\.m2\repository\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\test-classes;C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\classes;C:\Users\jeswi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\jeswi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jeswi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\jeswi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jeswi\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\jeswi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jeswi\.m2\repository\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar
+[MASTER] 11:29:49.202 [pool-2-thread-1] ERROR JUnitAnalyzer - evosuiteCP: C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\test-classes;C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\classes;C:\Users\jeswi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\jeswi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jeswi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\jeswi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jeswi\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\jeswi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jeswi\.m2\repository\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar;C:\Users\jeswi\.m2\repository\org\evosuite\evosuite-master\1.0.6\evosuite-master-1.0.6.jar;C:\Users\jeswi\.m2\repository\org\evosuite\evosuite-client\1.0.6\evosuite-client-1.0.6-tests.jar;C:\Users\jeswi\.m2\repository\org\evosuite\evosuite-runtime\1.0.6\evosuite-runtime-1.0.6.jar;C:\Users\jeswi\.m2\repository\javax\ejb\javax.ejb-api\3.2\javax.ejb-api-3.2.jar;C:\Users\jeswi\.m2\repository\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;C:\Users\jeswi\.m2\repository\javax\faces\javax.faces-api\2.2\javax.faces-api-2.2.jar;C:\Users\jeswi\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\jeswi\.m2\repository\org\hsqldb\hsqldb\2.4.0\hsqldb-2.4.0.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-orm\4.3.14.RELEASE\spring-orm-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-jdbc\4.3.14.RELEASE\spring-jdbc-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-context\4.3.14.RELEASE\spring-context-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-aop\4.3.14.RELEASE\spring-aop-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\org\springframework\spring-expression\4.3.14.RELEASE\spring-expression-4.3.14.RELEASE.jar;C:\Users\jeswi\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\jeswi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jeswi\.m2\repository\org\mockito\mockito-core\2.16.0\mockito-core-2.16.0.jar;C:\Users\jeswi\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\jeswi\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.9\byte-buddy-agent-1.7.9.jar;C:\Users\jeswi\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\jeswi\.m2\repository\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;C:\Users\jeswi\.m2\repository\org\ow2\asm\asm\6.0\asm-6.0.jar;C:\Users\jeswi\.m2\repository\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;C:\Users\jeswi\.m2\repository\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;C:\Users\jeswi\.m2\repository\org\ow2\asm\asm-analysis\6.0\asm-analysis-6.0.jar;C:\Users\jeswi\.m2\repository\org\ow2\asm\asm-util\6.0\asm-util-6.0.jar;C:\Users\jeswi\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\jeswi\.m2\repository\com\opencsv\opencsv\4.1\opencsv-4.1.jar;C:\Users\jeswi\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;C:\Users\jeswi\.m2\repository\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;C:\Users\jeswi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jeswi\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\jeswi\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\jeswi\.m2\repository\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;C:\Users\jeswi\.m2\repository\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;C:\Users\jeswi\.m2\repository\com\googlecode\gentyref\gentyref\1.2.0\gentyref-1.2.0.jar;C:\Users\jeswi\.m2\repository\net\sf\jgrapht\jgrapht\0.8.3\jgrapht-0.8.3.jar;C:\Users\jeswi\.m2\repository\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;C:\Users\jeswi\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\jeswi\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\jeswi\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\jeswi\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\jeswi\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\jeswi\.m2\repository\org\kohsuke\graphviz-api\1.1\graphviz-api-1.1.jar;C:\Users\jeswi\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\jeswi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\jeswi\.m2\repository\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.2.Final\jboss-servlet-api_3.1_spec-1.0.2.Final.jar;C:\Users\jeswi\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\jeswi\.m2\repository\javax\enterprise\cdi-api\1.2\cdi-api-1.2.jar;C:\Users\jeswi\.m2\repository\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;C:\Users\jeswi\.m2\repository\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;C:\Users\jeswi\.m2\repository\org\hibernate\hibernate-core\5.2.13.Final\hibernate-core-5.2.13.Final.jar;C:\Users\jeswi\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\jeswi\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\jeswi\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\Users\jeswi\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\jeswi\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;C:\Users\jeswi\.m2\repository\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;C:\Users\jeswi\.m2\repository\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;C:\Users\jeswi\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\jeswi\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;C:\Users\jeswi\.m2\repository\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\test-classes;C:\Users\jeswi\OneDrive\Desktop\Unibexidade\3ano2sem\ATS-Project\TP2\target\classes;C:\Users\jeswi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\jeswi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jeswi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\jeswi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jeswi\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\jeswi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jeswi\.m2\repository\org\evosuite\evosuite-standalone-runtime\1.0.6\evosuite-standalone-runtime-1.0.6.jar
+[MASTER] 11:29:49.214 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: unmappable character for encoding UTF-8: 19
+[MASTER] 11:29:49.215 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: illegal character: '\ufffd': 19
+[MASTER] 11:29:49.215 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: not a statement: 19
+[MASTER] 11:29:49.216 [pool-2-thread-1] ERROR JUnitAnalyzer - RegularFileObject[C:\Users\jeswi\AppData\Local\Temp\EvoSuite_17_1714645789052\Menu_17_tmp__ESTest.java]
+1: /*
+2:  * This file was automatically generated by EvoSuite
+3:  * Thu May 02 10:29:49 GMT 2024
+4:  */
+5: 
+6: 
+7: import org.junit.Test;
+8: import static org.junit.Assert.*;
+9: import org.evosuite.runtime.EvoRunner;
+10: import org.evosuite.runtime.EvoRunnerParameters;
+11: import org.junit.runner.RunWith;
+12: 
+13: @RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, useJEE = true) 
+14: public class Menu_17_tmp__ESTest extends Menu_17_tmp__ESTest_scaffolding {
+15: 
+16:   @Test(timeout = 4000)
+17:   public void test0()  throws Throwable  {
+18:       Menu menu0 = new Menu();
+19:       menu0.tempo_avançado();
+20:   }
+21: }
+RegularFileObject[C:\Users\jeswi\AppData\Local\Temp\EvoSuite_17_1714645789052\Menu_17_tmp__ESTest.java]
+1: /**
+2:  * Scaffolding file used to store all the setups needed to run 
+3:  * tests automatically generated by EvoSuite
+4:  * Thu May 02 10:29:49 GMT 2024
+5:  */
+6: 
+7: 
+8: import org.evosuite.runtime.annotation.EvoSuiteClassExclude;
+9: import org.junit.BeforeClass;
+10: import org.junit.Before;
+11: import org.junit.After;
+12: import org.junit.AfterClass;
+13: import org.evosuite.runtime.sandbox.Sandbox;
+14: import org.evosuite.runtime.sandbox.Sandbox.SandboxMode;
+15: 
+16: @EvoSuiteClassExclude
+17: public class Menu_17_tmp__ESTest_scaffolding {
+18: 
+19:   @org.junit.Rule 
+20:   public org.evosuite.runtime.vnet.NonFunctionalRequirementRule nfr = new org.evosuite.runtime.vnet.NonFunctionalRequirementRule();
+21: 
+22:   private static final java.util.Properties defaultProperties = (java.util.Properties) java.lang.System.getProperties().clone(); 
+23: 
+24:   private org.evosuite.runtime.thread.ThreadStopper threadStopper =  new org.evosuite.runtime.thread.ThreadStopper (org.evosuite.runtime.thread.KillSwitchHandler.getInstance(), 3000);
+25: 
+26: 
+27:   @BeforeClass 
+28:   public static void initEvoSuiteFramework() { 
+29:     org.evosuite.runtime.RuntimeSettings.className = "Menu"; 
+30:     org.evosuite.runtime.GuiSupport.initialize(); 
+31:     org.evosuite.runtime.RuntimeSettings.maxNumberOfThreads = 100; 
+32:     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
+33:     org.evosuite.runtime.RuntimeSettings.mockSystemIn = true; 
+34:     org.evosuite.runtime.RuntimeSettings.sandboxMode = org.evosuite.runtime.sandbox.Sandbox.SandboxMode.RECOMMENDED; 
+35:     org.evosuite.runtime.sandbox.Sandbox.initializeSecurityManagerForSUT(); 
+36:     org.evosuite.runtime.classhandling.JDKClassResetter.init();
+37:     setSystemProperties();
+38:     initializeClasses();
+39:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+40:   } 
+41: 
+42:   @AfterClass 
+43:   public static void clearEvoSuiteFramework(){ 
+44:     Sandbox.resetDefaultSecurityManager(); 
+45:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+46:   } 
+47: 
+48:   @Before 
+49:   public void initTestCase(){ 
+50:     threadStopper.storeCurrentThreads();
+51:     threadStopper.startRecordingTime();
+52:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().initHandler(); 
+53:     org.evosuite.runtime.sandbox.Sandbox.goingToExecuteSUTCode(); 
+54:     setSystemProperties(); 
+55:     org.evosuite.runtime.GuiSupport.setHeadless(); 
+56:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+57:     org.evosuite.runtime.agent.InstrumentingAgent.activate(); 
+58:     org.evosuite.runtime.util.SystemInUtil.getInstance().initForTestCase(); 
+59:   } 
+60: 
+61:   @After 
+62:   public void doneWithTestCase(){ 
+63:     threadStopper.killAndJoinClientThreads();
+64:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().safeExecuteAddedHooks(); 
+65:     org.evosuite.runtime.classhandling.JDKClassResetter.reset(); 
+66:     resetClasses(); 
+67:     org.evosuite.runtime.sandbox.Sandbox.doneWithExecutingSUTCode(); 
+68:     org.evosuite.runtime.agent.InstrumentingAgent.deactivate(); 
+69:     org.evosuite.runtime.GuiSupport.restoreHeadlessMode(); 
+70:   } 
+71: 
+72:   public static void setSystemProperties() {
+73:  
+74:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+75:     java.lang.System.setProperty("file.encoding", "Cp1252"); 
+76:     java.lang.System.setProperty("java.awt.fonts", ""); 
+77:     java.lang.System.setProperty("java.awt.headless", "true"); 
+78:     java.lang.System.setProperty("java.io.tmpdir", "C:\\Users\\jeswi\\AppData\\Local\\Temp\\"); 
+79:     java.lang.System.setProperty("user.country", "PT"); 
+80:     java.lang.System.setProperty("user.dir", "C:\\Users\\jeswi\\OneDrive\\Desktop\\Unibexidade\\3ano2sem\\ATS-Project\\TP2"); 
+81:     java.lang.System.setProperty("user.home", "C:\\Users\\jeswi"); 
+82:     java.lang.System.setProperty("user.language", "pt"); 
+83:     java.lang.System.setProperty("user.name", "jeswi"); 
+84:     java.lang.System.setProperty("user.timezone", "Europe/London"); 
+85:   }
+86: 
+87:   private static void initializeClasses() {
+88:     org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(Menu_17_tmp__ESTest_scaffolding.class.getClassLoader() ,
+89:       "Padrao",
+90:       "Menu",
+91:       "Tamanho"
+92:     );
+93:   } 
+94: 
+95:   private static void resetClasses() {
+96:     org.evosuite.runtime.classhandling.ClassResetter.getInstance().setClassLoader(Menu_17_tmp__ESTest_scaffolding.class.getClassLoader()); 
+97: 
+98:     org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(
+99:       "Menu",
+100:       "Tamanho",
+101:       "Padrao"
+102:     );
+103:   }
+104: }
+
+[MASTER] 11:29:49.216 [pool-2-thread-1] ERROR JUnitAnalyzer - Failed to compile test case:
+Menu menu0 = new Menu();
+menu0.tempo_avançado();
+
